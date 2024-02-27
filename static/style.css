@@ -1,0 +1,244 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 100%;
+    background: #F1F1F1;
+    height: 100%;
+    width: 100%;
+    overflow: scroll;
+}
+
+*,
+html {
+    --primaryGradient: linear-gradient(93.12deg, rgb(145, 33, 33) 0.52%, rgb(129, 34, 34) 100%);
+    --secondaryGradient: linear-gradient(268.91deg, brown -2.14%, wheat 99.69%);
+    --primaryBoxShadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+    --secondaryBoxShadow: 0px -10px 15px rgba(0, 0, 0, 0.1);
+    --primary: brown;
+}
+
+.chatbox {
+    position: absolute;
+    bottom: 15px;
+    right: 30px;
+}
+
+.chatbox__support {
+    display: flex;
+    flex-direction: column;
+    background: #eee;
+    width: 300px;
+    height: 350px;
+    z-index: -123456;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.chatbox--active {
+    transform: translateY(-40px);
+    z-index: 123456;
+    opacity: 1;
+
+}
+
+
+/* .chatbox__button {
+    text-align: right;
+} */
+
+.send__button {
+    padding: 6px;
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
+
+.chatbox__header {
+    position: sticky;
+    top: 0;
+    background: orange;
+}
+
+.chatbox__messages {
+    margin-top: auto;
+    display: flex;
+    overflow-y: scroll;
+    word-wrap: break-word;
+    flex-direction: column-reverse;
+    padding: 0 15px;
+}
+
+.messages__item {
+    background: orange;
+    max-width: 60.6%;
+    width: fit-content;
+}
+
+.message__item--operator {
+    margin-left: auto;
+}
+
+.message__item--visitor {
+    margin-right: auto;
+}
+
+.chatbox__footer {
+    position: sticky;
+    bottom: 0;
+}
+
+.chatbox__support {
+    background: #f9f9f9;
+    min-width: 200px;
+    min-height: 350px;
+    height: 450px;
+    width: 350px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.chatbox__header {
+    background: var(--primaryGradient);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: var(--primaryBoxShadow);
+}
+
+.chatbox__image--header {
+    margin-right: 10px;
+}
+
+.chatbox__heading--header {
+    font-size: 1.2rem;
+    color: white;
+}
+
+.chatbox__description--header {
+    font-size: .9rem;
+    color: white;
+}
+
+
+.messages__item {
+    margin-top: 10px;
+    background: #E0E0E0;
+    padding: 8px 12px;
+    max-width: 70%;
+}
+
+.messages__item--visitor,
+.messages__item--typing {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: wheat;
+}
+
+.messages__item--operator {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background: var(--primary);
+    color: white;
+}
+
+.chatbox__footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px;
+    background: var(--secondaryGradient);
+    box-shadow: var(--secondaryBoxShadow);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-top: 20px;
+}
+
+.chatbox__footer input {
+  width: 100%;
+  border: none;
+    padding: 10px 10px;
+    border-radius: 30px;
+    text-align: left;
+}
+
+.chatbox__send--footer {
+    color: white;
+}
+
+.chatbox__button button,
+.chatbox__button button:focus,
+.chatbox__button button:visited {
+    padding: 10px;
+    background: white;
+    border: none;
+    outline: none;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.chatbox__footer select option {
+  background: rgba(165, 42, 42, 0.7);
+}
+
+
+.pulse-ring {
+  content: '';
+  background:#a52a2a;
+  border: 5px solid #a52a2a;
+  border-radius: 50%;
+  position: absolute;
+
+}
+
+.microphone-ico {
+     background: none;
+    border: none;
+    position: absolute;
+  right: 30px;
+  cursor: pointer;
+color: #f5deb3 ;
+ color: #a52a2a;
+
+}
+
+
+.microphone-ico2 {
+     background: none;
+    border: none;
+    position: absolute;
+  right: 10px;
+  top: 2px;
+  cursor: pointer;
+ color: #a52a2a;
+
+}
+
+/* @-webkit-keyframes pulsate {
+  0% {
+    opacity: 1;
+    color:   #a52a2a ;
+  }
+  100% {
+    opacity: 0;
+    color: #f5deb3;
+  }
+} */

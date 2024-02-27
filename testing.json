@@ -1,0 +1,3967 @@
+{
+    "intents": [
+            {
+          "tag": "Greeting",
+          "patterns": [
+            "Hi",
+            "Hello",
+            "Greetings",
+            "Hey",
+            "Good morning",
+            "Good afternoon",
+            "Good evening"
+          ],
+          "responses": [
+            "Hello! How can I help you today?",
+            "Hi there! What can I assist you with?",
+            "Greetings! What can I do for you?"
+          ]
+        },
+        {
+          "tag": "Thanking",
+          "patterns": [
+            "Thank you",
+            "Thanks",
+            "Appreciate it",
+            "Thanks a lot"
+          ],
+          "responses": [
+            "You're welcome!",
+            "No problem!",
+            "Anytime!",
+            "Glad to assist you!"
+          ]
+        },
+        {
+          "tag": "Goodbye",
+          "patterns": [
+            "Bye",
+            "Goodbye",
+            "See you later",
+            "See ya",
+            "Take care"
+          ],
+          "responses": [
+            "Goodbye! Have a great day!",
+            "See you later!",
+            "Take care!",
+            "Until next time!"
+          ]
+        },
+        {
+          "tag": "Help",
+          "patterns": [
+            "Can you help ?",
+            "I need some assistance",
+            "How do I use this?",
+            "Can you guide ?"
+          ],
+          "responses": [
+            "Of course! What do you need help with?",
+            "Sure thing! What can I assist you with?",
+            "I'm here to help! What do you need assistance with?",
+            "No problem! How can I guide you?"
+          ]
+        },
+        {
+          "tag": "Joke",
+          "patterns": [
+            "Tell joke",
+            "Tell a joke",
+            
+            "Do you know any jokes?",
+            "I need a laugh",
+            "Entertain "
+          ],
+          "responses": [
+            "Why don't scientists trust atoms? Because they make up everything!",
+            "What do you call an alligator in a vest? An investigator!",
+            "Why did the tomato turn red? Because it saw the salad dressing!",
+            "Why did the chicken cross the playground? To get to the other slide!"
+          ]
+        },
+        {
+            "tag": "Life at vnr",
+            "patterns": [
+                "how is life at vnr",
+                "4 years at vnr",
+                "experience  at vnr "
+            ],
+            "responses": [
+                "You will have a amazing experience at VNR with a lot of activities and clubs for each and every domain"
+            ]
+        },
+        {
+            "tag": "IQAC information",
+            "patterns": [
+                "iqac",
+                "what is iqac",
+                "information about iqac",
+                "iqac related news and information,IQAC vision",
+                "iqac mission",
+                "iqac objectives"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/iqac.php"
+            ]
+        },
+        {
+            "tag": "iqac committee",
+            "patterns": [
+                "who are the committee members of iqac",
+                "members of iqac",
+                "iqac committee members",
+                "IQAC committee",
+                "committee"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/iqac/committee.pdf"
+            ]
+        },
+        {
+            "tag": "iqac methodologies",
+            "patterns": [
+                "methodologies of IQAC",
+                "information about methodologies of IQAC"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/iqac/iqacchart.pdf"
+            ]
+        },
+        {
+            "tag": "iqac activities",
+            "patterns": [
+                "what are the activities handeled by iqac",
+                "iqac activities"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/iqac/iqacacti.pdf"
+            ]
+        },
+        {
+            "tag": "iqac meets",
+            "patterns": [
+                " iqac minutes of meet "
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/iqac/Minutes%20of%20IQAC%20meetings_2019-20.pdf",
+                "http://vnrvjiet.ac.in/iqac/Minutes%20of%20IQAC%20meetings_2018-19.pdf"
+            ]
+        },
+        {
+            "tag": "iqac 2019 mom",
+            "patterns": [
+                "what are the minutes of the meet of iqac 2019 meet",
+                "2019 iqac minutes of the meet"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/iqac/Minutes%20of%20IQAC%20meetings_2019-20.pdf"
+            ]
+        },
+        {
+            "tag": "iqac 2018 mom",
+            "patterns": [
+                "what are the minutes of the meet of iqac 2018 meet",
+                "2018 iqac minutes of the meet"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/iqac/Minutes%20of%20IQAC%20meetings_2018-19.pdf"
+            ]
+        },
+        {
+            "tag": "iqac 2017 mom",
+            "patterns": [
+                "what are the minutes of the meet of iqac 2017 meet",
+                "2017 iqac minutes of the meet"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/iqac/Minutes%20of%20IQAC%20meetings_2017-18.pdf"
+            ]
+        },
+        {
+            "tag": "NAAC I cycle",
+            "patterns": [
+                "NAAC cycle 1",
+                "NAAC first report",
+                "first NAAC",
+                "NAAC I"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/naac1.php"
+            ]
+        },
+        {
+            "tag": "NAAC II cycle",
+            "patterns": [
+                "NAAC cycle 2",
+                "NAAC second report",
+                "second NAAC",
+                "NAAC II"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/naac2.php"
+            ]
+        },
+        {
+            "tag": "student satisfaction surevey",
+            "patterns": [
+                "student satisfaction surevey report ",
+                "information about student satisfaction survey report"
+            ],
+            "responses": [
+                "survey report 2019-2020: http://vnrvjiet.ac.in/StudentsSatisfactionSurvey2019-20.pdf| survey report 2018-2019: http://vnrvjiet.ac.in/StudentsSatisfactionSurvey2018-19.pdf"
+            ]
+        },
+        {
+            "tag": "placement summary",
+            "patterns": [
+                "average package at vnr",
+                "average ctc",
+                "students placement details",
+                "highest package",
+                "highest placement package at VNR ",
+                "placement information",
+                "year wise placement details",
+                "placement summary",
+                "placement statistics",
+                "placement analysis",
+                "companies visiting vnrvjiet",
+                "vnrvjiet placements",
+                "ece placements details",
+                "eie placements details",
+                "mechanical placements details",
+                "civil placements details",
+                "it placements details",
+                "eee placements details",
+                "cse placements details",
+                "ece placements details 2022",
+                "eie placements details 2022",
+                "mechanical placements details 2022",
+                "civil placements details 2022",
+                "it placements details 2022",
+                "eee placements details 2022",
+                "cse placements details 2022",
+                "ece placements details 2021",
+                "eie placements details 2021",
+                "mechanical placements details 2021",
+                "civil placements details 2021",
+                "it placements details 2021",
+                "eee placements details 2021",
+                "cse placements details 2021"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/placement.php"
+            ]
+        },
+        {
+            "tag": "placements cell contact ",
+            "patterns": [
+                "placement cell contact details",
+                "contact head of training and placement",
+                "placement victor samuel contact",
+                "placements vijay kumar contact"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/tpcontact.php"
+            ]
+        },
+        {
+            "tag": "student chapters in vnrvjiet",
+            "patterns": [
+                "technical clubs in vnr",
+                "student chapters in VNRVJIET",
+                "information about student chapters",
+                "student chapters"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/psc.php"
+            ]
+        },
+        {
+            "tag": "ISTE ",
+            "patterns": [
+                "ISTE student chapters",
+                "student chapter ISTE",
+                "ISTE"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/iste.pdf"
+            ]
+        },
+        {
+            "tag": "ICMACC ",
+            "patterns": [
+                "ICMACC student chapters",
+                "student chapter ICMACC",
+                "ICMACC"
+            ],
+            "responses": [
+                "http://ieee-icmacc.org/"
+            ]
+        },
+        {
+            "tag": "ACM ",
+            "patterns": [
+                "ACM student chapters",
+                "student chapter ACM",
+                "ACM"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/acmletter.pdf"
+            ]
+        },
+        {
+            "tag": "IEEE ",
+            "patterns": [
+                "IEEE student chapter",
+                "student chapter IEEE",
+                "IEEE"
+            ],
+            "responses": [
+                "http://ieee-icmacc.org/vnrvjiet/"
+            ]
+        },
+        {
+            "tag": "ISOI",
+            "patterns": [
+                "ISOI student chapters",
+                "student chapter ISOI",
+                "ISOI"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/isoi.pdf"
+            ]
+        },
+        {
+            "tag": "CSI",
+            "patterns": [
+                "CSI student chapters",
+                "student chapter CSI",
+                "CSI",
+                "what is csi",
+                "csi details",
+                "details about csi"
+            ],
+            "responses": [
+                "http://www.vnrvjietcsi.com/"
+            ]
+        },
+        {
+            "tag": "IETE ",
+            "patterns": [
+                "IETE student chapters",
+                "student chapter IETE",
+                "IETE"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/IETE.pdf"
+            ]
+        },
+        {
+            "tag": "SAE",
+            "patterns": [
+                "SAE student chapters",
+                "student chapter SAE",
+                "SAE"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/sae.pdf"
+            ]
+        },
+        {
+            "tag": "ASME",
+            "patterns": [
+                "ASME student chapters",
+                "student chapter ASME",
+                "ASME"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/asme.pdf"
+            ]
+        },
+        {
+            "tag": "IEI",
+            "patterns": [
+                "IEI student chapters",
+                "student chapter IEI",
+                "IEI"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/iei.pdf"
+            ]
+        },
+        {
+            "tag": "ICI",
+            "patterns": [
+                "ICI student chapters",
+                "student chapter ICI",
+                "ICI"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/ici.pdf"
+            ]
+        },
+        {
+            "tag": "convergence",
+            "patterns": [
+                "convergence"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/converg.php"
+            ]
+        },
+        {
+            "tag": "Sintillashunz ",
+            "patterns": [
+                "Sintillashunz ",
+                "College fest",
+                "VNR fest",
+                "fest vnr"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/sinti.php"
+            ]
+        },
+        {
+            "tag": "cultural clubs in vnrvjiet",
+            "patterns": [
+                "cultural clubs in VNRVJIET",
+                "information about cultural clubs",
+                "cultural clubs"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/clubs.php"
+            ]
+        },
+        {
+            "tag": "eduprime login",
+            "patterns": [
+                "college login",
+                "posting marks",
+                "assessments",
+                "write assessments",
+                "post an assessment",
+                "eduprime",
+                "stuent login",
+                "faculty login",
+                "attendance check",
+                "how to check attendance",
+                "mid marks",
+                "how to check mid marks",
+                "feedback",
+                "course feedback",
+                "choose an elective",
+                "where to choose an  elective",
+                "student feedback",
+                "student survey"
+            ],
+            "responses": [
+                "https://automation.vnrvjiet.ac.in/EduPrime2"
+            ]
+        },
+        {
+            "tag": "recruitment",
+            "patterns": [
+                "job vacancy",
+                "career jobs",
+                "careers",
+                "faculty recruitment",
+                "recruitment"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/careers.php"
+            ]
+        },
+        {
+            "tag": "medical insurance",
+            "patterns": [
+                "faculty medical insurance",
+                "medical insurance",
+                "group medical health insurance",
+                "hospital list",
+                "claim form a",
+                "claim form b",
+                "emergency contacts",
+                "emplyee group medical health insurance",
+                "hospitals under medical insurance"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/insurance.php"
+            ]
+        },
+        {
+            "tag": "emp service rules",
+            "patterns": [
+                "employee service rules"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/7.1.12.pdf"
+            ]
+        },
+        {
+            "tag": "cultural clubs in vnrvjiet",
+            "patterns": [
+                "activities vnr",
+                " ECA at vnr",
+                "Extra curricular activities at vnr",
+                "co curricular activities at vnr",
+                "co-curricular activities at vnr",
+                "Extra-curricular activities at vnr",
+                "cultural clubs in VNRVJIET",
+                "information about cultural clubs",
+                "cultural clubs"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/clubs.php"
+            ]
+        },
+        {
+            "tag": "History",
+            "patterns": [
+                "history",
+                "what is the history of VNR VJIET?",
+                "what is the history of the college?"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/history.php "
+            ]
+        },
+        {
+            "tag": "Objectives",
+            "patterns": [
+                "objectives",
+                "what are the objectives of VNR VJIET?",
+                "what are the objectives of the college?"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/objective.php"
+            ]
+        },
+        {
+            "tag": "governing council",
+            "patterns": [
+                "governing council"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/gc.php"
+            ]
+        },
+        {
+            "tag": "Principal",
+            "patterns": [
+                "principal",
+                "who is the principal of VNR VJIET?",
+                "who is the principal of the college?"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/principal.php "
+            ]
+        },
+        {
+            "tag": "Dean Administration",
+            "patterns": [
+                "dean",
+                "dean of adminstration",
+                "who is the Dean of Administration?",
+                "who is the Dean of Administration for VNRVJIET",
+                "who is the Dean of Administration of the college"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/deanaf.php "
+            ]
+        },
+        {
+            "tag": "Dean Innovation",
+            "patterns": [
+                "dean of innovation",
+                "who is the Dean of Innovation",
+                "who is the Dean of Incubation",
+                "who is the Dean of Entrepreneurship",
+                "who is the Dean of Globalization"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/deaniieg.php "
+            ]
+        },
+        {
+            "tag": "Dean Academics",
+            "patterns": [
+                "dean of academics",
+                "who is the Dean of Academics",
+                "who is the Dean of Academics for VNRVJIET",
+                "who is the Dean of Academics of the college"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/deacad.php "
+            ]
+        },
+        {
+            "tag": "Dean Examination",
+            "patterns": [
+                "who is the Dean of Examination?",
+                "who is the Dean of Evaluation ?"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/deanee.php "
+            ]
+        },
+        {
+            "tag": "Dean Student Progression",
+            "patterns": [
+                "who is the Dean of Student Progression",
+                "who is the Dean of Student Progression for VNRVJIET",
+                "who is the Dean of Student Progression of the college"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/deansp.php "
+            ]
+        },
+        {
+            "tag": "Director Research",
+            "patterns": [
+                "who is the Director of Research and Consultancy?",
+                "who is the Director of Research and Consultancy for VNRVJIET",
+                "who is the Director of Research and Consultancy of the college"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/directorrs.php "
+            ]
+        },
+        {
+            "tag": "Organisation Chart",
+            "patterns": [
+                "organisational chart",
+                "What is the organisation chart of the college?",
+                "what is the institutes organogram"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/or6_2_2.pdf "
+            ]
+        },
+        {
+            "tag": "Strategic plan",
+            "patterns": [
+                "what is the Strategic plan of VNR?"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/strategicplan.php "
+            ]
+        },
+        {
+            "tag": "Director Research",
+            "patterns": [
+                "who is the Director of Research and Consultancy?"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/directorrs.php "
+            ]
+        },
+        {
+            "tag": "Audited Statements",
+            "patterns": [
+                "Audited balance sheet",
+                "audited sheet"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/auditedaccouts.php "
+            ]
+        },
+        {
+            "tag": "Academics",
+            "patterns": [
+                "Academics",
+                
+                "Features of VNRVJIET Curriculum",
+                "CURRICULUM DESIGN",
+                "CURRICULUM DESIGN at vnr ",
+                "Features of Curriculum",
+                "Features of college Curriculum"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/academic.php "
+            ]
+        },
+        {
+            "tag": "Academic Calendar Btech",
+            "patterns": [
+                "academic calender",
+                "Btech academic calendar",
+                "B tech academic calendar",
+                "B.tech academic calendar"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/bac.php "
+            ]
+        },
+        {
+            "tag": "Academic Calendar Btech 1st year",
+            "patterns": [
+                "Btech academic calendar of 1st year - 2021-2022",
+                "Btech academic calender 1st year",
+                "1st btech academic calender",
+                "academic calender for 1st year"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/download/2021-c1.pdf "
+            ]
+        },
+        {
+            "tag": "Academic Calendar Btech 2nd year",
+            "patterns": [
+                "Btech academic calendar of 2nd year - 2021-2022",
+                "Btech academic calender 2nd year",
+                "2nd btech academic calender",
+                "academic calender for 2nd year"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/download/2021-c2.pdf"
+            ]
+        },
+        {
+            "tag": "Academic Calendar Btech 3rd year",
+            "patterns": [
+                "Btech academic calendar of 3rd year - 2021-2022",
+                "Btech academic calender 3rd year",
+                "3rd btech academic calender",
+                "academic calender for 3rd year"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/download/2021-c3.pdf  "
+            ]
+        },
+        {
+            "tag": "Academic Calendar Btech 4th year",
+            "patterns": [
+                "Btech academic calendar of 4th year - 2021-2022",
+                "Btech academic calender 4th year",
+                "4th btech academic calender",
+                "academic calender for 4th year"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/download/2021-c4.pdf  "
+            ]
+        },
+        {
+            "tag": "Academic Calendar Mtech",
+            "patterns": [
+                "Mtech academic calendar",
+                "M tech academic calendar"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/mac.php "
+            ]
+        },
+        {
+            "tag": "Academic Calendar Mtech 1st year",
+            "patterns": [
+                "Mtech academic calendar of 1st year - 2021-2022"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/download/mac211.pdf "
+            ]
+        },
+        {
+            "tag": "Academic Calendar Mtech 2nd year",
+            "patterns": [
+                "Mtech academic calendar of 2nd year - 2021-2022"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/download/mac212.pdf "
+            ]
+        },
+        {
+            "tag": "Btech Academic Regulations",
+            "patterns": [
+                "What are the Btech Academic Regulations"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/btechr.php "
+            ]
+        },
+        {
+            "tag": "Btech Academic Regulations R19",
+            "patterns": [
+                "What are the Btech  R19 Academic Regulations"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/VNRR19.pdf "
+            ]
+        },
+        {
+            "tag": "Btech Academic Regulations R18",
+            "patterns": [
+                "What are the Btech  R18 Academic Regulations"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/VNRR18.pdf "
+            ]
+        },
+        {
+            "tag": "MTech Academic Regulations",
+            "patterns": [
+                "What are the Mtech Academic Regulations"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/mtechr.php "
+            ]
+        },
+        {
+            "tag": "Mtech Academic Regulations R18",
+            "patterns": [
+                "What are the Mtech  R18 Academic Regulations"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/VNRMT18.pdf "
+            ]
+        },
+        {
+            "tag": "Syllabus Book - BTech",
+            "patterns": [
+                "Btech Syllabus ",
+                "Btech Syllabus  R19",
+                "Btech Syllabus  R18",
+                "Btech Syllabus  CSE",
+                "Btech Syllabus  ECE",
+                "Btech Syllabus  IT",
+                "Btech Syllabus  EIE",
+                "Btech Syllabus  ME",
+                "Btech Syllabus  Mechanical ",
+                "Btech Syllabus  Civil",
+                "Btech Syllabus  EEE",
+                "Btech Syllabus  First year",
+                "Btech Syllabus  Second Year",
+                "Btech Syllabus  Third Year",
+                "Btech Syllabus  Fourth Year",
+                "ece syllabus",
+                "eie syllabus",
+                "eee syllabus",
+                "csbs syllabus",
+                "mechanical syllabus ",
+                "automobile syllabus ",
+                "Btech Syllabus Book",
+                "Btech Syllabus Book R19",
+                "Btech Syllabus Book R18",
+                "Btech Syllabus Book CSE",
+                "Btech Syllabus Book ECE",
+                "Btech Syllabus Book IT",
+                "Btech Syllabus Book CSBS",
+                "Btech Syllabus Book EIE",
+                "Btech Syllabus Book ME",
+                "Btech Syllabus Book Mechanical ",
+                "Btech Syllabus Book Civil",
+                "Btech Syllabus Book EEE",
+                "Btech Syllabus Book First year",
+                "Btech Syllabus Book Second Year",
+                "Btech Syllabus Book Third Year",
+                "Btech Syllabus Book Fourth Year",
+                "ece syllabus book",
+                "eie syllabus book",
+                "eee syllabus book",
+                "csbs syllabus book",
+                "mechanical syllabus book",
+                "automobile syllabus book",
+                "civil syllabus book"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/bsb.php "
+            ]
+        },
+        {
+            "tag": "Syllabus Book - BTech R19 1st year CE",
+            "patterns": [
+                "Btech Syllabus  R19 1st Year ce",
+                "Btech Syllabus  R19 1st Year civil",
+                "B tech Syllabus  R19 1st Year ce",
+                "B tech Syllabus  R19 1st Year civil",
+                "Btech Syllabus Book R19 1st Year ce",
+                "Btech Syllabus Book R19 1st Year civil"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/download/R19/CE.pdf "
+            ]
+        },
+        {
+            "tag": "Syllabus Book - BTech R19 1st year EEE ",
+            "patterns": [
+                "B tech Syllabus R19 1st Year EEE",
+                "Btech Syllabus R19 1st Year EEE",
+                "B tech Syllabus Book R19 1st Year EEE",
+                "Btech Syllabus Book R19 1st Year EEE"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/download/R19/EEE.pdf "
+            ]
+        },
+        {
+            "tag": "Syllabus Book - BTech R19 1st year ME ",
+            "patterns": [
+                "Btech Syllabus  R19 1st Year ME ",
+                " BTech Syllabus  R19 1st Year mechanical",
+                "Btech Syllabus Book R19 1st Year ME ",
+                " BTech Syllabus Book R19 1st Year mechanical"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/download/R19/ME.pdf "
+            ]
+        },
+        {
+            "tag": "Syllabus Book - BTech R19 1st year ECE ",
+            "patterns": [
+                "Btech Syllabus R19 1st Year ECE ",
+                "Btech Syllabus Book R19 1st Year ECE "
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/download/R19/ECE.pdf "
+            ]
+        },
+        {
+            "tag": "Syllabus Book - BTech R19 1st year CSE ",
+            "patterns": [
+                "Btech Syllabus R19 1st Year CSE ",
+                "Btech Syllabus Book R19 1st Year CSE "
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/download/R19/CSE.pdf "
+            ]
+        },
+        {
+            "tag": "Syllabus Book - BTech R19 1st year CSE-AIML",
+            "patterns": [
+                "Btech Syllabus R19 1st Year CSE-AIML",
+                "Btech Syllabus R19 1st Year CSE Artificial Intelligence Machine Learning",
+                "Btech Syllabus Book R19 1st Year CSE-AIML",
+                "Btech Syllabus Book R19 1st Year CSE Artificial Intelligence Machine Learning"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/download/R19/CS-AIML.pdf "
+            ]
+        },
+        {
+            "tag": "Syllabus Book - BTech R19 1st year CSE-DS ",
+            "patterns": [
+                "Btech Syllabus R19 1st Year CSE-DS",
+                "Btech Syllabus R19 1st Year CSE Data Science",
+                "Btech Syllabus Book R19 1st Year CSE-DS",
+                "Btech Syllabus Book R19 1st Year CSE Data Science"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/download/R19/CS-DS.pdf "
+            ]
+        },
+        {
+            "tag": "Syllabus Book - BTech R19 1st year CSE-IOT ",
+            "patterns": [
+                "Btech Syllabus R19 1st Year CSE-IOT",
+                "Btech Syllabus R19 1st Year CSE Internet of Things",
+                "Btech Syllabus Book R19 1st Year CSE-IOT",
+                "Btech Syllabus Book R19 1st Year CSE Internet of Things"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/download/R19/CS-IOT.pdf "
+            ]
+        },
+        {
+            "tag": "Syllabus Book - BTech R19 1st year CSE-CyS ",
+            "patterns": [
+                "Btech Syllabus R19 1st Year CSE-Cys",
+                "Btech Syllabus R19 1st Year CSE Cyber Security",
+                "Btech Syllabus Book R19 1st Year CSE-Cys",
+                "Btech Syllabus Book R19 1st Year CSE Cyber Security"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/download/R19/CS-CYS.pdf "
+            ]
+        },
+        {
+            "tag": "Syllabus Book - BTech R19 1st year CSE-AIDS ",
+            "patterns": [
+                "Btech Syllabus R19 1st Year CSE-AIDS",
+                "Btech Syllabus R19 1st Year CSE Artificial Intelligence Data Science",
+                "Btech Syllabus Book R19 1st Year CSE-AIDS",
+                "Btech Syllabus Book R19 1st Year CSE Artificial Intelligence Data Science"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/download/R19/CS-AID.pdf "
+            ]
+        },
+        {
+            "tag": "Syllabus Book - BTech R19 1st year CSBS",
+            "patterns": [
+                "Btech Syllabus R19 1st Year CSBS",
+                "Btech Syllabus Book R19 1st Year CSBS"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/download/R19/CSBS.pdf "
+            ]
+        },
+        {
+            "tag": "Syllabus Book - BTech R19 1st year EIE ",
+            "patterns": [
+                "Btech Syllabus R19 1st Year EIE",
+                "Btech Syllabus Book R19 1st Year EIE"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/download/R19/EIE.pdf "
+            ]
+        },
+        {
+            "tag": "Syllabus Book - BTech R19 1st year IT ",
+            "patterns": [
+                "Btech Syllabus R19 1st Year IT",
+                "Btech Syllabus Book R19 1st Year IT"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/download/R19/IT.pdf "
+            ]
+        },
+        {
+            "tag": "Syllabus Book - BTech R19 1st year AE ",
+            "patterns": [
+                "Btech Syllabus R19 1st Year AE",
+                "Btech Syllabus R19 1st Year Automobile ",
+                "Btech Syllabus Book R19 1st Year AE",
+                "Btech Syllabus Book R19 1st Year Automobile "
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/download/R19/AE.pdf "
+            ]
+        },
+        {
+            "tag": "Syllabus Book - BTech R19 2nd year CE 1st year",
+            "patterns": [
+                "Btech Syllabus R19 2nd Year ce",
+                "Btech Syllabus R19 2nd Year civil",
+                "Btech Syllabus Book R19 2nd Year ce",
+                "Btech Syllabus Book R19 2nd Year civil"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/download/R19/CE2.pdf "
+            ]
+        },
+        {
+            "tag": "Syllabus Book - BTech R19 2nd year EEE",
+            "patterns": [
+                "Btech Syllabus R19 2nd Year EEE",
+                "Btech Syllabus Book R19 2nd Year EEE"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/download/R19/EEE2.pdf "
+            ]
+        },
+        {
+            "tag": "Syllabus Book - BTech R19 2nd year ME ",
+            "patterns": [
+                "Btech Syllabus R19 2nd Year ME ",
+                " BTech Syllabus R19 2nd Year mechanical",
+                "Btech Syllabus Book R19 2nd Year ME ",
+                " BTech Syllabus Book R19 2nd Year mechanical"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/download/R19/ME2.pdf "
+            ]
+        },
+        {
+            "tag": "Syllabus Book - BTech R19 2nd year ECE ",
+            "patterns": [
+                "Btech Syllabus R19 2nd Year ECE",
+                "Btech Syllabus Book R19 2nd Year ECE "
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/download/R19/ECE2.pdf "
+            ]
+        },
+        {
+            "tag": "Syllabus Book - BTech R19 2nd year CSE",
+            "patterns": [
+                "Btech Syllabus R19 2nd Year CSE",
+                "Btech Syllabus Book R19 2nd Year CSE"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/download/R19/CSE2.pdf "
+            ]
+        },
+        {
+            "tag": "Syllabus Book - BTech R19 2nd year CSE-AIML",
+            "patterns": [
+                "Btech Syllabus R19 2nd Year CSE-AIML",
+                "Btech Syllabus R19 2nd Year CSE Artificial Intelligence Machine Learning",
+                "Btech Syllabus Book R19 2nd Year CSE-AIML",
+                "Btech Syllabus Book R19 2nd Year CSE Artificial Intelligence Machine Learning"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/download/R19/CS-AIML2.pdf "
+            ]
+        },
+        {
+            "tag": "Syllabus Book - BTech R19 2nd year CSE-DS ",
+            "patterns": [
+                "Btech Syllabus R19 2nd Year CSE-DS",
+                "Btech Syllabus R19 2nd Year CSE Data Science",
+                "Btech Syllabus Book R19 2nd Year CSE-DS",
+                "Btech Syllabus Book R19 2nd Year CSE Data Science"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/download/R19/CS-DS2.pdf "
+            ]
+        },
+        {
+            "tag": "Syllabus Book - BTech R19 2nd year CSE-IOT",
+            "patterns": [
+                "Btech Syllabus R19 2nd Year CSE-IOT",
+                "Btech Syllabus R19 2nd Year CSE Internet of Things",
+                "Btech Syllabus Book R19 2nd Year CSE-IOT",
+                "Btech Syllabus Book R19 2nd Year CSE Internet of Things"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/download/R19/CS-IOT2.pdf "
+            ]
+        },
+        {
+            "tag": "Syllabus Book - BTech R19 2nd year CSE-CyS",
+            "patterns": [
+                "Btech Syllabus R19 2nd Year CSE-Cys",
+                "Btech Syllabus R19 2nd Year CSE Cyber Security",
+                "Btech Syllabus Book R19 2nd Year CSE-Cys",
+                "Btech Syllabus Book R19 2nd Year CSE Cyber Security"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/download/R19/CS-CYS2.pdf "
+            ]
+        },
+        {
+            "tag": "Syllabus Book - BTech R19 2nd year CSBS",
+            "patterns": [
+                "Btech Syllabus R19 2nd Year CSBS",
+                "Btech Syllabus Book R19 2nd Year CSBS"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/download/R19/CSBS2.pdf "
+            ]
+        },
+        {
+            "tag": "Syllabus Book - BTech R19 2nd year EIE",
+            "patterns": [
+                "Btech Syllabus R19 2nd Year EIE ",
+                "Btech Syllabus Book R19 2nd Year EIE "
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/download/R19/EIE2.pdf "
+            ]
+        },
+        {
+            "tag": "Syllabus Book - BTech R19 2nd year IT",
+            "patterns": [
+                "Btech Syllabus R19 2nd Year IT ",
+                "Btech Syllabus Book R19 2nd Year IT "
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/download/R19/IT2.pdf "
+            ]
+        },
+        {
+            "tag": "Syllabus Book - BTech R19 2nd year AE",
+            "patterns": [
+                "Btech Syllabus R19 2nd Year AE",
+                "Btech Syllabus R19 2nd Year Automobile ",
+                "Btech Syllabus Book R19 2nd Year AE",
+                "Btech Syllabus Book R19 2nd Year Automobile "
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/download/R19/AE2.pdf "
+            ]
+        },
+        {
+            "tag": "Syllabus Book - BTech R19 3rd year CE",
+            "patterns": [
+                "Btech Syllabus R19 3rd Year ce",
+                "Btech Syllabus R19 3rd Year civil",
+                "Btech Syllabus Book R19 3rd Year ce",
+                "Btech Syllabus Book R19 3rd Year civil"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/download/R19/CE3.pdf "
+            ]
+        },
+        {
+            "tag": "Syllabus Book - BTech R19 3rd year EEE",
+            "patterns": [
+                "Btech Syllabus R19 3rd Year EEE",
+                "Btech Syllabus Book R19 3rd Year EEE"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/download/R19/EEE3.pdf "
+            ]
+        },
+        {
+            "tag": "Syllabus Book - BTech R19 3rd year ME ",
+            "patterns": [
+                "Btech Syllabus R19 3rd Year ME ",
+                "BTech Syllabus R19 3rd Year mechanical",
+                "Btech Syllabus Book R19 3rd Year ME ",
+                "BTech Syllabus Book R19 3rd Year mechanical"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/download/R19/ME3.pdf "
+            ]
+        },
+        {
+            "tag": "Syllabus Book - BTech R19 3rd year ECE ",
+            "patterns": [
+                "Btech Syllabus R19 3rd Year ECE ",
+                "Btech Syllabus Book R19 3rd Year ECE"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/download/R19/ECE3.pdf "
+            ]
+        },
+        {
+            "tag": "Syllabus Book - BTech R19 3rd year CSE",
+            "patterns": [
+                "Btech Syllabus R19 3rd Year CSE ",
+                "Btech Syllabus Book R19 3rd Year CSE "
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/download/R19/CSE3.pdf "
+            ]
+        },
+        {
+            "tag": "Syllabus Book - BTech R19 3rd year CSBS",
+            "patterns": [
+                "Btech Syllabus R19 3rd Year CSBS",
+                "Btech Syllabus Book R19 3rd Year CSBS"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/download/R19/CSBS3.pdf "
+            ]
+        },
+        {
+            "tag": "Syllabus Book - BTech R19 3rd year EIE ",
+            "patterns": [
+                "Btech Syllabus R19 3rd Year EIE ",
+                "Btech Syllabus Book R19 3rd Year EIE "
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/download/R19/EIE3.pdf "
+            ]
+        },
+        {
+            "tag": "Syllabus Book - BTech R19 3rd year IT",
+            "patterns": [
+                "Btech Syllabus R19 3rd Year IT",
+                "Btech Syllabus Book R19 3rd Year IT "
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/download/R19/IT3.pdf "
+            ]
+        },
+        {
+            "tag": "Syllabus Book - BTech R19 3rd year AE",
+            "patterns": [
+                "Btech Syllabus R19 3rd Year AE",
+                "Btech Syllabus R19 3rd Year Automobile",
+                "Btech Syllabus Book R19 3rd Year AE",
+                "Btech Syllabus Book R19 3rd Year Automobile"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/download/R19/AE3.pdf "
+            ]
+        },
+        {
+            "tag": "Syllabus Book - BTech R18  CE ",
+            "patterns": [
+                "Btech Syllabus R18 ce",
+                "Btech Syllabus R18 civil",
+                "Btech Syllabus Book R18 ce",
+                "Btech Syllabus Book R18 civil"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/download/R18/R18CE.PDF "
+            ]
+        },
+        {
+            "tag": "Syllabus Book - BTech R18 EEE",
+            "patterns": [
+                "Btech Syllabus R18 EEE ",
+                "BTech Syllabus R18 4th year EEE",
+                "Btech Syllabus Book R18 EEE ",
+                "BTech Syllabus Book R18 4th year EEE"
+            ],
+            "responses": [
+                "http: //www.vnrvjiet.ac.in/download/R18/EEE4.PDF "
+            ]
+        },
+        {
+            "tag": "Syllabus Book - BTech R18 ME ",
+            "patterns": [
+                "Btech Syllabus  R18 MECH ",
+                " BTech Syllabus  R18 mechanical",
+                "BTech Syllabus  R18 4th year MECH",
+                "BTech Syllabus  R18 4th year mechanical",
+                "Btech Syllabus Book R18 MECH ",
+                " BTech Syllabus Book R18 mechanical",
+                "BTech Syllabus Book R18 4th year MECH",
+                "BTech Syllabus Book R18 4th year mechanical"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/download/R18/ME4.PDF "
+            ]
+        },
+        {
+            "tag": "Syllabus Book - BTech R18 ECE ",
+            "patterns": [
+                "Btech Syllabus R18 ECE ",
+                " Btech Syllabus R18 4th year ECE",
+                "Btech Syllabus Book R18 ECE ",
+                " Btech Syllabus Book R18 4th year ECE"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/download/R18/ECE4.PDF "
+            ]
+        },
+        {
+            "tag": "Syllabus Book - BTech R18 CSE",
+            "patterns": [
+                "Btech Syllabus R18 CSE ",
+                " Btech Syllabus R18 4th year CSE",
+                "Btech Syllabus Book R18 CSE ",
+                " Btech Syllabus Book R18 4th year CSE"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/download/R18/CSE4.PDF"
+            ]
+        },
+        {
+            "tag": "Syllabus Book - BTech R18 EIE ",
+            "patterns": [
+                "Btech Syllabus R18 EIE ",
+                " Btech Syllabus R18 4th year EIE",
+                "Btech Syllabus Book R18 EIE ",
+                " Btech Syllabus Book R18 4th year EIE"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/download/R18/EIE4.PDF "
+            ]
+        },
+        {
+            "tag": "Syllabus Book - BTech R18r IT",
+            "patterns": [
+                "Btech Syllabus Book R18 IT ",
+                " Btech Syllabus Book R18 4th year IT"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/download/R18/IT4.PDF"
+            ]
+        },
+        {
+            "tag": "Syllabus Book - BTech R18 AE",
+            "patterns": [
+                "Btech Syllabus R18 AE",
+                "Btech Syllabus R18 Automobile ",
+                " Btech Syllabus R18 4th year AE",
+                "Btech Syllabus Book R18 AE",
+                "Btech Syllabus Book R18 Automobile ",
+                " Btech Syllabus Book R18 4th year AE"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/download/R18/R18AE.PDF "
+            ]
+        },
+        {
+            "tag": "Learning Methodologies",
+            "patterns": [
+                " Learning Methodologies"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/academic.php"
+            ]
+        },
+        {
+            "tag": "Value Added Courses",
+            "patterns": [
+                "Value Added Courses"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/proofsofvalueaddedcourses.php"
+            ]
+        },
+        {
+            "tag": "Student Learning Process",
+            "patterns": [
+                "Student Learning Process"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/studentlearning.php"
+            ]
+        },
+        {
+            "tag": "student centric methods",
+            "patterns": [
+                "student centric methods"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/studentcentricmethods.php"
+            ]
+        },
+        {
+            "tag": "course outcomes evaluation",
+            "patterns": [
+                "course outcomes evaluation"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/outcomesattainment.php"
+            ]
+        },
+        {
+            "tag": "cirriculum special features",
+            "patterns": [
+                "cirriculum special features"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/csf.php"
+            ]
+        },
+        {
+            "tag": "List of holldays",
+            "patterns": [
+                "academic holidays",
+                "this years holidays",
+                "holidays",
+                "when is the next holiday",
+                "List of Holidays"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/download/academicplans/loh22.pdf "
+            ]
+        },
+        {
+            "tag": "Condonation Form BTech",
+            "patterns": [
+                "Condonation",
+                "Condonation Form",
+                "Condonation Form for Btech",
+                "Condonation Form Btech"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/bcon.pdf "
+            ]
+        },
+        {
+            "tag": "Condonation Form MTech",
+            "patterns": [
+                "Condonation Form Mtech"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/mcon.pdf "
+            ]
+        },
+        {
+            "tag": "Circulars and notices",
+            "patterns": [
+                "circulars",
+                "notices",
+                "notifications"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/academiccnt.php"
+            ]
+        },
+        {
+            "tag": "Academic Awards Btech",
+            "patterns": [
+                "Academic Awards Btech"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/download/academicplans/FINAL%20GOLD%20MEDALS%20LIST%202021-2022%20@%2025.03.2023.pdf"
+                  ]
+        },
+        {
+            "tag": "Academic Awards Mtech",
+            "patterns": [
+                "Academic Awards Mtech"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/download/academicplans/M.Tech.%20Best%20Projests%202021-2022.pdf"
+                  ]
+        },
+        {
+            "tag": "Academic Verification",
+            "patterns": [
+                "Academic Verification"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/download/academicplans/academe.pdf"
+                  ]
+        },
+        {
+            "tag": "Feedback and action taken report",
+            "patterns": [
+                "Feedback and action taken report",
+                "Feedback"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/SampleReport1_4EEE.pdf"
+                  ]
+        },
+        {
+            "tag": "Acacdemic Council",
+            "patterns": [
+                "Acacdemic Council",
+                "Council"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/acmm1.pdf"
+                  ]
+        },
+        {
+            "tag": "Admissions",
+            "patterns": [
+                "Admissions information",
+                "vnr Admissions details",
+                "information about Admissions in VNR",
+                "Admissions",
+                " Admissions Details",
+                "Admissions",
+                "Admission information",
+                "vnr Admission details",
+                "information about Admission in VNR",
+                "Admission",
+                " Admission Details"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/admission.php "
+            ]
+        },
+        {
+            "tag": "Eamcet Ranks 2022 ",
+            "patterns": [
+                "Eamcet ranks 2022",
+                " First and last Eamcet 2022 Ranks",
+                "Eamcet Ranks"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/download/admissions/First%20and%20Last%20Ranks-2022.pdf"
+            ]
+        },
+        {
+            "tag": "Eamcet Ranks 2021 ",
+            "patterns": [
+                "Eamcet ranks 2021",
+                " First and last Eamcet 2021 Ranks",
+                "Eamcet Ranks"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/download/admissions/First%20and%20Last%20Ranks-2021.pdf"
+            ]
+        },
+        {
+            "tag": "Eamcet Ranks 2020 ",
+            "patterns": [
+                "Eamcet ranks 2020",
+                " First and last Eamcet 2020 Ranks",
+                "Eamcet Ranks"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/download/admissions/First%20and%20Last%20Ranks-2020.pdf "
+            ]
+        },
+        {
+            "tag": "Eamcet Ranks 2019 ",
+            "patterns": [
+                "Eamcet ranks 2019",
+                " First and last Eamcet 2019 Ranks"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/download/admissions/FIRST_LAST_EAMCET_2019_RANKS.pdf "
+            ]
+        },
+        {
+            "tag": "Eamcet Ranks 2018 ",
+            "patterns": [
+                "Eamcet ranks 2018",
+                " First and last Eamcet 2018 Ranks"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/download/admissions/FIRST_LAST_EAMCET_2018_RANKS.pdf "
+            ]
+        },
+        {
+            "tag": "Eamcet Ranks 2017 ",
+            "patterns": [
+                "Eamcet ranks 2017",
+                " First and last Eamcet 2017 Ranks"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/download/admissions/FIRST_LAST_EAMCET_2017_RANKS.pdf "
+            ]
+        },
+        {
+            "tag": "Eamcet Ranks 2016",
+            "patterns": [
+                "Eamcet ranks 2016",
+                " First and last Eamcet 2016 Ranks"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/download/admissions/FIRST_LAST_EAMCET_2016_RANKS.pdf "
+            ]
+        },
+        {
+            "tag": "Eamcet Ranks 2015 ",
+            "patterns": [
+                "Eamcet ranks 2015",
+                " First and last Eamcet 2015 Ranks"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/download/admissions/FIRST_LAST_EAMCET_2015_RANKS.pdf "
+            ]
+        },
+        {
+            "tag": "MTech Specializations ",
+            "patterns": [
+                "Specializations in mtech",
+                "MTech Specialisations",
+                "MTech departments",
+                "MTech Specializations",
+                "MTech Departments"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/abtmdept.php "
+            ]
+        },
+        {
+            "tag": "Admissions Procedure",
+            "patterns": [
+                "procedure involved in joining vnr",
+                "Admission Procedure",
+                " Joining Procedure",
+                "How to join VNR VJIET",
+                "Admission Enquiry",
+                " What is the procedure to join VNR VJIET"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/VNR%20Admissions%20Procedure.pdf "
+            ]
+        },
+        {
+            "tag": "Hostel",
+            "patterns": [
+                "hostel food at vnr",
+                "facilities in vnr hostles",
+                "vnr hostel facilities",
+                "Hostel",
+                "VNR Hostel"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/vnrhostel.php "
+            ]
+        },
+        {
+            "tag": "Hostel Brochure ",
+            "patterns": [
+                "Hostel Brochure ",
+                "VNR Hostel Brochure"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/hostelb.pdf "
+            ]
+        },
+        {
+            "tag": "Hostel ACCOMMODATION FORM",
+            "patterns": [
+                "Hostel ACCOMMODATION FORM",
+                "VNR Hostel ACCOMMODATION FORM "
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/download/Application_for_Admission_in_the_Hostel_of__VNRVJIET.pdf "
+            ]
+        },
+        {
+            "tag": "Hostel Rule and Regulation",
+            "patterns": [
+                "Hostel Rule and Regulation",
+                "VNR Hostel Rule and Regulation"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/download/rules.pdf "
+            ]
+        },
+        {
+            "tag": "Hostel DECLARATION FORM",
+            "patterns": [
+                "Hostel DECLARATION FORM",
+                "VNR Hostel DECLARATION FORM "
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/download/declaration.pdf "
+            ]
+        },
+        {
+            "tag": "Hostel Contact ",
+            "patterns": [
+                "Hostel Contact ",
+                "VNR Hostel Contact"
+            ],
+            "responses": [
+                "Contact: K.Venu Gopal -Warden-6301109435 "
+            ]
+        },
+        {
+            "tag": " Girls Hostel Video",
+            "patterns": [
+                "Girls Hostel ",
+                "Girls VNR Hostel",
+                "Girls hostel video",
+                "VNR Girls Hostel Video"
+            ],
+            "responses": [
+                "https://www.youtube.com/watch?v=ZNRRweFUZjI "
+            ]
+        },
+        {
+            "tag": " Boys Hostel Video",
+            "patterns": [
+                "Boys Hostel ",
+                "Boys VNR Hostel",
+                "Boys hostel video",
+                "VNR Boys Hostel Video"
+            ],
+            "responses": [
+                "https://www.youtube.com/watch?v=x7BhD9uvUWM "
+            ]
+        },
+        {
+            "tag": "Transport",
+            "patterns": [
+                "Bus Facility",
+                "Bus Facilities in Vnr",
+                "Transport",
+                "Transportation",
+                "Bus"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/transport.php"
+            ]
+        },
+        {
+            "tag": "Transport for 1st Btech students",
+            "patterns": [
+                "Transport for 1st years",
+                "Bus route"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/firstybus.pdf"
+            ]
+        },
+        {
+            "tag": "Drivers Contacts",
+            "patterns": [
+                "Drivers Contacts",
+                "Drivers Numbers",
+                "Drivers details"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/busdrivers.pdf"
+            ]
+        },
+        {
+            "tag": "examinations",
+            "patterns": [
+                "latest exam news",
+                "exam news",
+                "exam related notification",
+                "examination news",
+                "exam pattern",
+                "question paper pattern",
+                "question paper pattern for mid",
+                "question paper pattern for sem",
+                "exam notifications",
+                "mid exam",
+                "sem exam",
+                "examination details",
+                "examination notifications",
+                "latest news on exams"
+            ],
+            "responses": [
+                "https://vnrvjietexams.net/"
+            ]
+        },
+        {
+            "tag": "organization chart",
+            "patterns": [
+                "organization chart"
+            ],
+            "responses": [
+                "https://vnrvjietexams.net/pdfs/EB%20Organization%20Chart.pdf"
+            ]
+        },
+        {
+            "tag": "examination registration fees",
+            "patterns": [
+                "examination registration fees"
+            ],
+            "responses": [
+                "https://vnrvjietexams.net/Eduprime3Exam/ExamFee"
+            ]
+        },
+        {
+            "tag": "notifications and timetables",
+            "patterns": [
+                "notifications and timetables"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/vnrexams.php"
+            ]
+        },
+        {
+            "tag": "notifications and timetables",
+            "patterns": [
+                "notifications and timetables"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/vnrexams.php"
+            ]
+        },
+        {
+            "tag": "timetable 3 btech 2 sem r19 sessional examination 1",
+            "patterns": [
+                "timetable 3 btech 2 sem r19 sessional examination 1"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/9032023.pdf"
+            ]
+        },
+        {
+            "tag": "timetable 4 btech 2 sem r19 sessional examination 1",
+            "patterns": [
+                "timetable 4 btech 2 sem r19 sessional examination 1"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/28022023.pdf"
+            ]
+        },
+        {
+            "tag": "timetable 1 btech 1 sem r22 sessional examination 2",
+            "patterns": [
+                "timetable 1 btech 1 sem r22 sessional examination 2"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/2422023.pdf"
+            ]
+        },
+        {
+            "tag": "timetable 1 mtech 1 sem r22 sessional examination 2",
+            "patterns": [
+                "timetable 1 mtech 1 sem r22 sessional examination 2"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/2522023.pdf"
+            ]
+        },
+        {
+            "tag": "timetable for Ph.D Programme (Course Work) Regular Examination",
+            "patterns": [
+                "timetable for Ph.D Programme (Course Work) Regular Examination"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/2622023.pdf"
+            ]
+        },
+        {
+            "tag": "timetable for Ph.D Programme (Course Work) Sessional Examination 2",
+            "patterns": [
+                "timetable for Ph.D Programme (Course Work) Sessional Examination 2"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/2722023.pdf"
+            ]
+        },
+        {
+            "tag": "Timetable for 1 btech 1 sem r22 regular examination",
+            "patterns": [
+                "Timetable for 1 btech 1 sem r22 regular examination"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/1822023.pdf"
+            ]
+        },
+        {
+            "tag": "Timetable for 1 mtech 1 sem r22 regular examination",
+            "patterns": [
+                "Timetable for 1 mtech 1 sem r22 regular examination"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/1922023.pdf"
+            ]
+        },
+        {
+            "tag": "Timetable for 1 mtech 1 sem a18 supplementary examination",
+            "patterns": [
+                "Timetable for 1 mtech 1 sem a18 supplementary examination"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/2022023.pdf"
+            ]
+        },
+        {
+            "tag": "Timetable for 1 mtech 1 sem r18 supplementary examination",
+            "patterns": [
+                "Timetable for 1 mtech 1 sem r18 supplementary examination"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/2122023.pdf"
+            ]
+        },
+        {
+            "tag": "Timetable for 1 mtech 2 sem a18 supplementary examination",
+            "patterns": [
+                "Timetable for 1 mtech 2 sem a18 supplementary examination"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/2222023.pdf"
+            ]
+        },
+        {
+            "tag": "Timetable for 1 mtech 2 sem r18 supplementary examination",
+            "patterns": [
+                "Timetable for 1 mtech 2 sem r18 supplementary examination"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/2322023.pdf"
+            ]
+        },
+        {
+            "tag": "Schedule of Btech and Mtech one time chance supplementary practical examinations",
+            "patterns": [
+                "Schedule of Btech and Mtech one time chance supplementary practical examinations"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/17022023.pdf"
+            ]
+        },
+        {
+            "tag": "Notification for 1 mtech 1 sem r22 regular examination",
+            "patterns": [
+                "Notification for 1 mtech 1 sem r22 regular examination"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/12022023.pdf"
+            ]
+        },
+        {
+            "tag": "Notification for 1 mtech 2 sem a18, r18 supplementary examinations",
+            "patterns": [
+                "Notification for 1 mtech 2 sem a18, r18 supplementary examinations"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/13022023.pdf"
+            ]
+        },
+        {
+            "tag": "Examination fee payment",
+            "patterns": [
+                "Examination fee payment"
+            ],
+            "responses": [
+                "https://vnrvjietexams.net/Eduprime3Exam/ExamFee"
+            ]
+        },
+        {
+            "tag": "Download Hall Tickets",
+            "patterns": [
+                "Download Hall Tickets"
+            ],
+            "responses": [
+                "https://vnrvjietexams.net/Eduprime3Exam/HallTicket"
+            ]
+        },
+        {
+            "tag": "Results",
+            "patterns": [
+                "Results"
+            ],
+            "responses": [
+                "https://vnrvjietexams.net/eduprime3exam/results"
+            ]
+        },
+        {
+            "tag": "btech examination Results",
+            "patterns": [
+                "III B.TECH. I SEMESTER (R19) Regular",
+                "IV B.TECH. I SEMESTER (R19) Regular",
+                "IV B.TECH. - MINOR I SEMESTER (R19-M) Regular",
+                "III B.TECH. - MINOR I SEMESTER (R19-M) Regular",
+                "III B.TECH. - MINOR I SEMESTER (R19-M) Supplementary",
+                "I B.TECH. I SEMESTER (R19) Supplementary",
+                "I B.TECH. II SEMESTER (R19) Supplementary",
+                "II B.TECH. I SEMESTER (R19) Supplementary",
+                "II B.TECH. II SEMESTER (R19) Supplementary",
+                "III B.TECH. I SEMESTER (R19) Supplementary",
+                "III B.TECH. II SEMESTER (R19) Supplementary",
+                "I B.TECH. I SEMESTER (R18) Supplementary",
+                "I B.TECH. II SEMESTER (R18) Supplementary",
+                "II B.TECH. I SEMESTER (R18) Supplementary",
+                "II B.TECH. II SEMESTER (R18) Supplementary",
+                "III B.TECH. I SEMESTER (R18) Supplementary",
+                "III B.TECH. IISEMESTER (R18) Supplementary",
+                "IV B.TECH. I SEMESTER (R18) Supplementary",
+                "I B.TECH. I SEMESTER (R15) Supplementary",
+                "I B.TECH. II SEMESTER (R15) Supplementary",
+                "II B.TECH. I SEMESTER (R15) Supplementary",
+                "II B.TECH. II SEMESTER (R15) Supplementary",
+                "III B.TECH. I SEMESTER (R15) Supplementary",
+                "III B.TECH. II SEMESTER (R15) Supplementary",
+                "IV B.TECH. I SEMESTER (R15) Supplementary"
+            ],
+            "responses": [
+                "https://vnrvjietexams.net/eduprime3exam/results#"
+            ]
+        },
+        {
+            "tag": "RC/RV Fee Payment",
+            "patterns": [
+                "RC/RV Fee Payment"
+            ],
+            "responses": [
+                "https://vnrvjietexams.net/Eduprime3Exam/RCRV"
+            ]
+        },
+        {
+            "tag": "Previous Question Papers",
+            "patterns": [
+                "Previous Question Papers"
+            ],
+            "responses": [
+                "https://vnrvjietexams.net/QP.html"
+            ]
+        },
+        {
+            "tag": "Malpractice results",
+            "patterns": [
+                "Malpractice results"
+            ],
+            "responses": [
+                "https://vnrvjietexams.net/pdfs/MP%20Cases%20Guidelines.pdf"
+            ]
+        },
+        {
+            "tag": "Contact examination branch",
+            "patterns": [
+                "Contact examination branch"
+            ],
+            "responses": [
+                "https://vnrvjietexams.net/ExamBranch/contact.html"
+            ]
+        },
+        {
+            "tag": "CSE Department",
+            "patterns": [
+                "cse",
+                "computer science",
+                "cse department",
+                "department of cse",
+                "computer science and engineering"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/cse.php"
+            ]
+        },
+        {
+            "tag": "CSE Department vision and mission",
+            "patterns": [
+                "CSE Department vision and mission"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/csevision.php"
+            ]
+        },
+        {
+            "tag": "CSE Department Broucher",
+            "patterns": [
+                "cse department broucher",
+                "cse broucher"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/csedept/csebrochure.pdf"
+            ]
+        },
+        {
+            "tag": "CSE Department POs, PEOs and PSOs-UG",
+            "patterns": [
+                "cse broucherCSE Department POs, PEOs and PSOs-UG"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/csepo.php"
+            ]
+        },
+        {
+            "tag": "CSE Department POs, PEOs and PSOs-PG",
+            "patterns": [
+                "cse broucherCSE Department POs, PEOs and PSOs-PG"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/csepgpo.php"
+            ]
+        },
+        {
+            "tag": "M.Tech Software Engineering POs, PEOs and PSOs",
+            "patterns": [
+                "M.Tech Software Engineering POs, PEOs and PSOs"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/csedept/M.%20Tech(SE)%20POs%20,PEOs%20and%20PSOs.pdf"
+            ]
+        },
+        {
+            "tag": "M.Tech Computer Science and Engineering POs, PEOs and PSOs",
+            "patterns": [
+                "M.Tech Computer Science and Engineering POs, PEOs and PSOs"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/csedept/M.Tech%20CSE%20PEO's,PSO's%20and%20PO's.pdf"
+            ]
+        },
+        {
+            "tag": "CSE Department Memorandums of Understanding (MOUs)",
+            "patterns": [
+                "CSE Department Memorandums of Understanding (MOUs)"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/MOU%20Data.pdf"
+            ]
+        },
+        {
+            "tag": "CSE Department Laboratories",
+            "patterns": [
+                "CSE Department Laboratories"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/labs.pdf"
+            ]
+        },
+        {
+            "tag": "CSE Department Achievements",
+            "patterns": [
+                "CSE Department Achievements"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/cseachievements.php"
+            ]
+        },
+        {
+            "tag": "CSE Department Faculty Achievements",
+            "patterns": [
+                "CSE Department Faculty Achievements"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/csedept/Faculty%20Achievements.pdf"
+            ]
+        },
+        {
+            "tag": "CSE Department Students Achievements",
+            "patterns": [
+                "CSE Department Students Achievements"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/csedept/Students%20Achievements.pdf"
+            ]
+        },
+        {
+            "tag": "CSE internship details 2020-21",
+            "patterns": [
+                "internship in cse department 2020-21",
+                "cse internship details 2020-21",
+                "internship details of computer science 2020-21",
+                "internship details of computer science students 2021-21"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/csedept/2020-21internships.pdf"
+            ]
+        },
+        {
+            "tag": "CSE internship details 2019-20",
+            "patterns": [
+                "internship in cse department 2019-20",
+                "cse internship details 2019-20",
+                "internship details of computer science 2019-20",
+                "internship details of computer science students 2020-19"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/csedept/2019-20internships.pdf"
+            ]
+        },
+        {
+            "tag": "CSE internship details 2018-19",
+            "patterns": [
+                "internship in cse department 2018-19",
+                "cse internship details 2018-19",
+                "internship details of computer science 2019-18",
+                "internship details of computer science students 2019-18"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/csedept/2018-19internships.pdf"
+            ]
+        },
+        {
+            "tag": "CSE internship details 2017-18",
+            "patterns": [
+                "internship in cse department 2017-18",
+                "cse internship details 2017-18",
+                "internship details of computer science 2018-17",
+                "internship details of computer science students 2018-17"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/csedept/2017-18internships.pdf"
+            ]
+        },
+        {
+            "tag": "CSE internship details 2016-17",
+            "patterns": [
+                "internship in cse department 2016-17",
+                "cse internship details 2016-17",
+                "internship details of computer science 2017-16",
+                "internship details of computer science students 2017-16"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/csedept/2016-17internships.pdf"
+            ]
+        },
+        {
+            "tag": "CSE internship details 2015-16",
+            "patterns": [
+                "internship in cse department 2015-16",
+                "cse internship details 2015-16",
+                "internship details of computer science 2016-15",
+                "internship details of computer science students 2016-15"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/csedept/2015-16internships.pdf"
+            ]
+        },
+        {
+            "tag": "CSE internship details 2014-15",
+            "patterns": [
+                "internship in cse department 2014-15",
+                "cse internship details 2014-15",
+                "internship details of computer science 2015-14",
+                "internship details of computer science students 2015-14"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/csedept/2014-15internships.pdf"
+            ]
+        },
+        {
+            "tag": "CSE internship details 2013-14",
+            "patterns": [
+                "internship in cse department 2013-14",
+                "cse internship details 2013-14",
+                "internship details of computer science 2014-13",
+                "internship details of computer science students 2014-13"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/csedept/2013-14internships.pdf"
+            ]
+        },
+        {
+            "tag": "CSE internship details 2012-13",
+            "patterns": [
+                "internship in cse department 2012-13",
+                "cse internship details 2012-13",
+                "internship details of computer science 2013-12",
+                "internship details of computer science students 2013-12"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/csedept/2012-13internships.pdf"
+            ]
+        },
+        {
+            "tag": "CSBS",
+            "patterns": [
+                "cse CSBS",
+                "CSBS",
+                "CSBS Course",
+                "csbs department"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/csbs.pdf"
+            ]
+        },
+        {
+            "tag": "Data Science",
+            "patterns": [
+                "Data Science",
+                "CSE Data science",
+                "DS",
+                "Data Science Course",
+                "data science department",
+                "ds department"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/bds.pdf"
+            ]
+        },
+        {
+            "tag": "Cyber Security",
+            "patterns": [
+                "Cyber Security",
+                "Cse Cyber Security",
+                "CS",
+                "Cyber Security Course",
+                "cs department",
+                "cyber security department"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/bcs.pdf"
+            ]
+        },
+        {
+            "tag": "IoT",
+            "patterns": [
+                "IoT",
+                "Internet of things",
+                "IoT Course",
+                "Internet of Things Course",
+                "iot department"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/biot.pdf"
+            ]
+        },
+        {
+            "tag": "AI and ML",
+            "patterns": [
+                "AI and ML",
+                "Artifical Intelligence and Machine Learning",
+                "Artifical Intelligence and Machine Learning Course",
+                "AI and ML Course",
+                "ai and ml department"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/baiml.pdf"
+            ]
+        },
+        {
+            "tag": "About Mtech software engineering",
+            "patterns": [
+                "About Mtech software engineering"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/mtse.pdf"
+            ]
+        },
+        {
+            "tag": "M. Tech(SE) POs ,PEOs and PSOs",
+            "patterns": [
+                "M. Tech(SE) POs ,PEOs and PSOs"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/csedept/M.%20Tech(SE)%20POs%20,PEOs%20and%20PSOs.pdf"
+            ]
+        },
+        {
+            "tag": "M. Tech(SE) Admission Procedure",
+            "patterns": [
+                "M. Tech(SE) Admission Procedure"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/csedept/ap.pdf"
+            ]
+        },
+        {
+            "tag": "M. Tech(SE) Academic Calendar",
+            "patterns": [
+                "M. Tech(SE) Academic Calendar"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/mac.php"
+            ]
+        },
+        {
+            "tag": "I M. Tech Academic Calendar 2022-2023",
+            "patterns": [
+                "I M. Tech Academic Calendar 2022-2023"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/download/mac221.pdf"
+            ]
+        },
+        {
+            "tag": "M. Tech(SE) Internships and placements",
+            "patterns": [
+                "M. Tech(SE) Internships and placements"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/csedept/int1.pdf"
+            ]
+        },
+        {
+            "tag": "M. Tech CSE",
+            "patterns": [
+                "M. Tech CSE"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/mtcse.pdf"
+            ]
+        },
+        {
+            "tag": "CSE Teaching Faculty",
+            "patterns": [
+                "cse teaching faculty",
+                "cse faculty",
+                "faculty under cse",
+                "faculty under cse department"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/csefaculty.php"
+            ]
+        },
+        {
+            "tag": "CSE Non-Teaching Faculty",
+            "patterns": [
+                "cse non-teaching faculty",
+                "cse faculty",
+                "faculty under cse",
+                "faculty under cse department"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/csentfaculty.php"
+            ]
+        },
+        {
+            "tag": "Guest Lectures",
+            "patterns": [
+                "Guest Lecture",
+                "Guest Lectures"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/cseguestlectures.php"
+            ]
+        },
+        {
+            "tag": "Report of Guest Lectures of 2019-20",
+            "patterns": [
+                "Report of Guest Lectures of 2019-20"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/csedept/GL-Index-19-20.pdf"
+            ]
+        },
+        {
+            "tag": "Report of Guest Lectures",
+            "patterns": [
+                "Report of Guest Lectures"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/csedept/Consolidated%20Guest%20Lectures.pdf"
+            ]
+        },
+        {
+            "tag": "Workshops Organized by CSE Department",
+            "patterns": [
+                "Workshops Organized by CSE Department"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/csedept/WorkShops-Organized.pdf"
+            ]
+        },
+        {
+            "tag": "Faculty Outside world interaction",
+            "patterns": [
+                "Faculty Outside world interaction"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/csedept/Facultyoutsideworldinteraction.pdf"
+            ]
+        },
+        {
+            "tag": "CSE industrial training",
+            "patterns": [
+                "CSE industrial training"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/csedept/cseindustrytrainings.pdf"
+            ]
+        },
+        {
+            "tag": "CSE professional bodies",
+            "patterns": [
+                "CSE professional bodies"
+            ],
+            "responses": [
+                "https://vnrvjietcsi.com/"
+            ]
+        },
+        {
+            "tag": "CSE association",
+            "patterns": [
+                "CSE association"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/csedept/CSEAssociation.pdf"
+            ]
+        },
+        {
+            "tag": "CSE Certification Courses",
+            "patterns": [
+                "CSE Certification Courses"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/csedept/certificationcourses.pdf"
+            ]
+        },
+        {
+            "tag": "CSE Research areas and projects",
+            "patterns": [
+                "CSE Research areas and projects"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/cseresearchareas.php"
+            ]
+        },
+        {
+            "tag": "CSE Sponsored projects",
+            "patterns": [
+                "CSE Sponsored projects"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/csedept/CSE_Sponsered_Projects.pdf"
+            ]
+        },
+        {
+            "tag": "CSE Consultancy Projects",
+            "patterns": [
+                "CSE Consultancy Projects"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/csedept/ConsultancyProjects.pdf"
+            ]
+        },
+        {
+            "tag": "CSE Patents",
+            "patterns": [
+                "CSE Patents"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/csedept/List%20of%20Patents(CSE).pdf"
+            ]
+        },
+        {
+            "tag": "CSE Center of Excellence",
+            "patterns": [
+                "CSE Center of Excellence"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/csedept/coecse.pdf"
+            ]
+        },
+        {
+            "tag": "Gamma Club",
+            "patterns": [
+                "Gamma Club"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/csedept/gammaclub.pdf"
+            ]
+        },
+        {
+            "tag": "Turing Hut",
+            "patterns": [
+                "Turing Hut"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/csedept/turinghut.pdf"
+            ]
+        },
+        {
+            "tag": "CSE placements",
+            "patterns": [
+                "CSE placements"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/cseplacements.php"
+            ]
+        },
+        {
+            "tag": "CSE placements for batch 2022",
+            "patterns": [
+                "CSE placements for batch 2022"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/csedept/cse2022placements.pdf"
+            ]
+        },
+        {
+            "tag": "CSE placements for batch 2021",
+            "patterns": [
+                "CSE placements for batch 2021"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/csedept/cse2021placements.pdf"
+            ]
+        },
+        {
+            "tag": "CSE placements for batch 2020",
+            "patterns": [
+                "CSE placements for batch 2020"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/csedept/cse2020placements.pdf"
+            ]
+        },
+        {
+            "tag": "CSE placements for batch 2019",
+            "patterns": [
+                "CSE placements for batch 2019"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/csedept/No.of%20Placements%20for%202019%20batch%20CSE.pdf"
+            ]
+        },
+        {
+            "tag": "CSE placements for batch 2018",
+            "patterns": [
+                "CSE placements for batch 2018"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/csedept/No.of%20Placements%20for%202018%20batch%20CSE.pdf"
+            ]
+        },
+        {
+            "tag": "CSE placements for last five years",
+            "patterns": [
+                "CSE placements for last five years"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/csedept/CSE%20Dept%20Placements%20Summary.pdf"
+            ]
+        },
+        {
+            "tag": "CSE initiatives",
+            "patterns": [
+                "CSE initiatives"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/csedept/initiatives.php"
+            ]
+        },
+        {
+            "tag": "CSE wit and wil",
+            "patterns": [
+                "CSE wit and wil"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/csedept/ds%20wit%20&%20wil.pdf"
+            ]
+        },
+        {
+            "tag": "CSE learning by doing",
+            "patterns": [
+                "CSE learning by doing"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/csedept/Learnig_by_doing_Java.pdf"
+            ]
+        },
+        {
+            "tag": "CSE course based projects",
+            "patterns": [
+                "CSE course based projects"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/csedept/Course%20Based%20Projects.pdf"
+            ]
+        },
+        {
+            "tag": "CSE remedial classes",
+            "patterns": [
+                "CSE remedial classes"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/csedept/remedialclasses.pdf"
+            ]
+        },
+        {
+            "tag": "CSE Career Vision",
+            "patterns": [
+                "CSE Career Vision"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/csedept/career%20vision.pdf"
+            ]
+        },
+        {
+            "tag": "CSE Think Pair Share",
+            "patterns": [
+                "CSE Think Pair Share"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/csedept/TPS.pdf"
+            ]
+        },
+        {
+            "tag": "CSE faculty vedio lecture series",
+            "patterns": [
+                "CSE faculty vedio lecture series"
+            ],
+            "responses": [
+                "https://www.youtube.com/channel/UC2x3mbRv6I8EeXZ31Nmez0g/videos"
+            ]
+        },
+        {
+            "tag": "CSE dept in news",
+            "patterns": [
+                "CSE dept in news"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/csenews1.php"
+            ]
+        },
+        {
+            "tag": "ICACECS 2021",
+            "patterns": [
+                "ICACECS 2021"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/ICACECS%202021.pdf"
+            ]
+        },
+        {
+            "tag": "CSE poster",
+            "patterns": [
+                "Cse poster"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/cseposter21.jpg"
+            ]
+        },
+        {
+            "tag": "ICACECS 2020",
+            "patterns": [
+                "ICACECS 2020"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/ICACECS-2020.jpg"
+            ]
+        },
+        {
+            "tag": "Student with 28.75 lakh package",
+            "patterns": [
+                "Student with 28.75 lakh package"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/sde2.jpg"
+            ]
+        },
+        {
+            "tag": "economic times winner",
+            "patterns": [
+                "economic times winner"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/csedept/economictimes.jpg"
+            ]
+        },
+        {
+            "tag": "One week fdp on intelligent computing and deep learning",
+            "patterns": [
+                "One week fdp on intelligent computing and deep learning"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/csedept/csenewsfdp.jpg"
+            ]
+        },
+        {
+            "tag": "Smart india hackathon",
+            "patterns": [
+                "Smart india hackathon"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/csedept/csen1.jpg"
+            ]
+        },
+        {
+            "tag": "CSE MoU with Mroads",
+            "patterns": [
+                "CSE MoU with Mroads"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/csedept/csen3.jpg"
+            ]
+        },
+        {
+            "tag": "TCS awards",
+            "patterns": [
+                "TCS awards"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/csedept/csen4.jpg"
+            ]
+        },
+        {
+            "tag": "CSE e outreach programme",
+            "patterns": [
+                "CSE e outreach programme"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/csedept/E%20Outreach.pdf"
+            ]
+        },
+        {
+            "tag": "CSE Design Thinking",
+            "patterns": [
+                "CSE Design Thinking"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/csedept/design.jpg"
+            ]
+        },
+        {
+            "tag": "CSE awareness on cyber crimes",
+            "patterns": [
+                "CSE awareness on cyber crimes"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/csedept/cyber.jpg"
+            ]
+        },
+        {
+            "tag": "CSE awareness on latest methods",
+            "patterns": [
+                "CSE awareness on latest methods"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/csedept/csen8.jpg"
+            ]
+        },
+        {
+            "tag": "CSE Excite 2016",
+            "patterns": [
+                "CSE Excite 2016"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/csedept/excite2k16.png"
+            ]
+        },
+        {
+            "tag": "MPTEL",
+            "patterns": [
+                "NPTEL"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/csedept/NPTEL_CSE.pdf"
+            ]
+        },
+        {
+            "tag": "CSE research enhancements",
+            "patterns": [
+                "CSE research enhancements"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/csedept/Research%20Enhancement.pdf"
+            ]
+        },
+        {
+            "tag": "CSE Alumni Mentors",
+            "patterns": [
+                "CSE Alumni Mentors"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/csedept/Alumni%20Mentors.pdf"
+            ]
+        },
+        {
+            "tag": "civil department",
+            "patterns": [
+                "civil",
+                "civil department",
+                "department of civil engineering",
+                "civil faculty",
+                "civil department faculty",
+                "faculty of civil department",
+                "faculty under civil department",
+                "civil department mission",
+                "civil department vision",
+                "civil department mission and vision",
+                "civil department events",
+                "civil department alumni",
+                "alumni of civil department",
+                "Research Projects under civil department",
+                "civil research projects",
+                "research and development of civil department",
+                "civil department research and development projects"
+            ],
+            "responses": [
+                "http: //www.vnrvjiet.ac.in/civil.php"
+            ]
+        },
+        {
+            "tag": "Civil vision and mission",
+            "patterns": [
+                "Civil vision and mission"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/civilvision.php"
+            ]
+        },
+        {
+            "tag": "Civil UG PEOs, POs and PSOs",
+            "patterns": [
+                "Civil UG PEOs, POs and PSOs"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/civilpo.php"
+            ]
+        },
+        {
+            "tag": "Civil PG PEOs, POs and PSOs",
+            "patterns": [
+                "Civil PG PEOs, POs and PSOs"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/civilpgpo.php"
+            ]
+        },
+        {
+            "tag": "Civil Mtech Structural engineering PEOs and POs",
+            "patterns": [
+                "Civil Mtech Structural engineering PEOs and POs"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/civildept/structure.pdf"
+            ]
+        },
+        {
+            "tag": "Civil Mtech Highway engineering PEOs and POs",
+            "patterns": [
+                "Civil Mtech Highway engineering PEOs and POs"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/civildept/highway.pdf"
+            ]
+        },
+        {
+            "tag": "Civil Mtech Geo technical engineering PEOs and POs",
+            "patterns": [
+                "Civil Mtech Geo technical engineering PEOs and POs"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/civildept/geotech.pdf"
+            ]
+        },
+        {
+            "tag": "Civil news letter",
+            "patterns": [
+                "Civil news letter"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/civildept/cnews.pdf"
+            ]
+        },
+        {
+            "tag": "Civil department vedio",
+            "patterns": [
+                "Civil department vedio"
+            ],
+            "responses": [
+                "https://www.youtube.com/watch?v=GgeZSWQMCzs"
+            ]
+        },
+        {
+            "tag": "Civil mtech gte vedio",
+            "patterns": [
+                "Civil mtech gte vedio"
+            ],
+            "responses": [
+                "https://www.youtube.com/watch?v=O-IUG7295UE"
+            ]
+        },
+        {
+            "tag": "mtech se vedio",
+            "patterns": [
+                "mtech se vedio"
+            ],
+            "responses": [
+                "https://www.youtube.com/watch?v=9yEP75S23xw"
+            ]
+        },
+        {
+            "tag": "Civil upcoming events",
+            "patterns": [
+                "Civil upcoming events"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/cednews.php"
+            ]
+        },
+        {
+            "tag": "Civil teaching faculty",
+            "patterns": [
+                "Civil teaching faculty"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/civilfaculty.php"
+            ]
+        },
+        {
+            "tag": "Civil non teaching faculty",
+            "patterns": [
+                "Civil non teaching faculty"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/civilntfaculty.php"
+            ]
+        },
+        {
+            "tag": "Civil Thrust areas",
+            "patterns": [
+                "Civil Thrust areas"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/civildept/thrust.pdf"
+            ]
+        },
+        {
+            "tag": "Civil Funded projects",
+            "patterns": [
+                "Civil Funded projects"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/civildept/fpr.pdf"
+            ]
+        },
+        {
+            "tag": "Civil center of excellence",
+            "patterns": [
+                "Civil center of excellence"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/civildept/civilcoe.pdf"
+            ]
+        },
+        {
+            "tag": "Civil certification courses",
+            "patterns": [
+                "Civil certification courses"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/civilcertificate.php"
+            ]
+        },
+        {
+            "tag": "Civil NPTEL",
+            "patterns": [
+                "Civil NPTEL"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/civildept/nptel.pdf"
+            ]
+        },
+        {
+            "tag": "Civil Intellectual property rights",
+            "patterns": [
+                "Civil Intellectual property rights"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/civildept/civilipr.pdf"
+            ]
+        },
+        {
+            "tag": "Civil E content",
+            "patterns": [
+                "Civil E content"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/civildept/Econtent.pdf"
+            ]
+        },
+        {
+            "tag": "Civil academic programmes",
+            "patterns": [
+                "Civil academic programmes"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/civildept/ap.pdf"
+            ]
+        },
+        {
+            "tag": "Civil dept international conference",
+            "patterns": [
+                "Civil international conference"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/civildept/IC2014.pdf"
+            ]
+        },
+        {
+            "tag": "Civil national conference",
+            "patterns": [
+                "Civil national conference"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/civildept/cwe.pdf"
+            ]
+        },
+        {
+            "tag": "Civil AICTE funded workshop",
+            "patterns": [
+                "Civil AICTE funded workshop"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/civildept/AICTE.pdf"
+            ]
+        },
+        {
+            "tag": "Civil fdp",
+            "patterns": [
+                "Civil fdp"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/civildept/cedfdp.pdf"
+            ]
+        },
+        {
+            "tag": "Civil workshops funded by institute",
+            "patterns": [
+                "Civil workshops funded by institute"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/civildept/fundedinst.pdf"
+            ]
+        },
+        {
+            "tag": "Civil guest lectures",
+            "patterns": [
+                "Civil guest lectures"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/civildept/guestlecture.pdf"
+            ]
+        },
+        {
+            "tag": "Civil Industrial visits",
+            "patterns": [
+                "Civil Industrial visits"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/civildept/inv.pdf"
+            ]
+        },
+        {
+            "tag": "Civil industrial training",
+            "patterns": [
+                "Civil industrial training"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/civildept/Industrial_Training.pdf"
+            ]
+        },
+        {
+            "tag": "Civil consultancy brochure",
+            "patterns": [
+                "Civil consultancy brochure"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/civildept/cb.pdf"
+            ]
+        },
+        {
+            "tag": "Civil conultancy carried",
+            "patterns": [
+                "Civil conultancy carried"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/civildept/ccar.pdf"
+            ]
+        },
+        {
+            "tag": "Civil services rendered",
+            "patterns": [
+                "Civil services rendered"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/civildept/ser.pdf"
+            ]
+        },
+        {
+            "tag": "Civil proffesional bodies",
+            "patterns": [
+                "Civil proffesional bodies",
+                "ICI IGBC chapter"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/civildept/ici.pdf"
+            ]
+        },
+        {
+            "tag": "Civil Laboratories",
+            "patterns": [
+                "Civil Laboratories",
+                "Civil labs"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/civillabs.php"
+            ]
+        },
+        {
+            "tag": "CAD & GIS lab",
+            "patterns": [
+                "CAD & GIS lab"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/civildept/cad.pdf"
+            ]
+        },
+        {
+            "tag": "Concrete lab",
+            "patterns": [
+                "Concrete lab"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/civildept/cl.pdf"
+            ]
+        },
+        {
+            "tag": "strenght of materials lab",
+            "patterns": [
+                "strenght of materials lab"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/civildept/sm.pdf"
+            ]
+        },
+        {
+            "tag": "survey lab",
+            "patterns": [
+                "survey lab"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/civildept/se.pdf"
+            ]
+        },
+        {
+            "tag": "environmental engineering lab",
+            "patterns": [
+                "environmental engineering lab"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/civildept/ee.pdf"
+            ]
+        },
+        {
+            "tag": "transportation engineering",
+            "patterns": [
+                "transportation engineering"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/civildept/te.pdf"
+            ]
+        },
+        {
+            "tag": "geotechnical engineering lab",
+            "patterns": [
+                "geotechnical engineering lab"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/civildept/gte.pdf"
+            ]
+        },
+        {
+            "tag": "geology lab",
+            "patterns": [
+                "geology lab"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/civildept/gl.pdf"
+            ]
+        },
+        {
+            "tag": "structural engineering lab",
+            "patterns": [
+                "structural engineering lab"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/civildept/strlab.pdf"
+            ]
+        },
+        {
+            "tag": "pg cad lab",
+            "patterns": [
+                "pg cad lab"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/civildept/pg.pdf"
+            ]
+        },
+        {
+            "tag": "advanced concrete lab",
+            "patterns": [
+                "advanced concrete lab"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/civildept/ac.pdf"
+            ]
+        },
+        {
+            "tag": "civil highway engineering lab",
+            "patterns": [
+                "civil highway engineering lab"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/civildept/he.pdf"
+            ]
+        },
+        {
+            "tag": "advanced geotechnical engineering lab",
+            "patterns": [
+                "advanced geotechnical engineering lab"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/civildept/age.pdf"
+            ]
+        },
+        {
+            "tag": "civil computing facilities",
+            "patterns": [
+                "civil computing facilities"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/civildept/compute.pdf"
+            ]
+        },
+        {
+            "tag": "Civil alumni entrepreneurs",
+            "patterns": [
+                "Civil alumni entrepreneurs"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/civildept/almep.pdf"
+            ]
+        },
+        {
+            "tag": "Civil alumni scholarship",
+            "patterns": [
+                "Civil alumni scholarship"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/civildept/rishibio.pdf"
+            ]
+        },
+        {
+            "tag": "Civil alumni associated",
+            "patterns": [
+                "Civil alumni associated"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/civildept/AssocAlumni.pdf"
+            ]
+        },
+        {
+            "tag": "mechanical department",
+            "patterns": [
+                "mechanical",
+                "mechanical department",
+                "mechanical engineering",
+                "department of mechanical engineering",
+                "department of mech",
+                "activities of mech",
+                "activities under mech department",
+                "mechanical department faculty",
+                "mech department faculty",
+                "faculty of mechanical department",
+                "faculty under mechanical department",
+                "mechanical department events",
+                "mechanical department alumni",
+                "alumni of mechanical department",
+                "Research Projects under mechanical department",
+                "placements of mechanical engineering",
+                "mechanical engineering placements"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/mech.php"
+            ]
+        },
+        {
+            "tag": "mechanical department vision and mission",
+            "patterns": [
+                "mechanical department vision and mission"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/mevision.pdf"
+            ]
+        },
+        {
+            "tag": "mechanical department UG PEOs and SOs",
+            "patterns": [
+                "mechanical department UG PEOs and SOs"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/mepos.pdf"
+            ]
+        },
+        {
+            "tag": "mechanical department news letter",
+            "patterns": [
+                "mechanical department news letter"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/mechdept/news.pdf"
+            ]
+        },
+        {
+            "tag": "mechanical department Swoc",
+            "patterns": [
+                "mechanical department Swoc"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/mechdept/meswoc.pdf"
+            ]
+        },
+        {
+            "tag": "mechanical department brochure",
+            "patterns": [
+                "mechanical department brochure"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/mechdept/meb.pdf"
+            ]
+        },
+        {
+            "tag": "mechanical department NPTEL",
+            "patterns": [
+                "mechanical department NPTEL"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/mechdept/nptel.pdf"
+            ]
+        },
+        {
+            "tag": "mechanical department vedio",
+            "patterns": [
+                "mechanical department vedio"
+            ],
+            "responses": [
+                "https://www.youtube.com/watch?v=XcxCpK4o_dU"
+            ]
+        },
+        {
+            "tag": "mechanical department panel discussion vedio",
+            "patterns": [
+                "mechanical department panel discussion vedio"
+            ],
+            "responses": [
+                "https://www.youtube.com/watch?v=I_kd24D1NUs"
+            ]
+        },
+        {
+            "tag": "mechanical department teaching faculty",
+            "patterns": [
+                "mechanical department teaching faculty"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/mechfaculty.php"
+            ]
+        },
+        {
+            "tag": "mechanical department non teaching faculty",
+            "patterns": [
+                "mechanical department non teaching faculty"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/mechntfaculty.php"
+            ]
+        },
+        {
+            "tag": "mech mtech cad/cam e brochure",
+            "patterns": [
+                "mech mtech cad/cam e brochure"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/mechdept/mtechcadcam.pdf"
+            ]
+        },
+        {
+            "tag": "mech mtech cad/cam PEOs and POs",
+            "patterns": [
+                "mech mtech cad/cam PEOs and POs"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/M.Tech.%20PEOs%20CAD%20CAM.pdf"
+            ]
+        },
+        {
+            "tag": "mech mtech ams PEOs and POs",
+            "patterns": [
+                "mech mtech ams PEOs and POs"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/M.Tech%20AMS-%20PEOs%20and%20POs.pdf"
+            ]
+        },
+        {
+            "tag": "mech mtech ams program highlights and oppurtunities",
+            "patterns": [
+                "mech mtech ams program highlights and oppurtunities"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/mtechpho.pdf"
+            ]
+        },
+        {
+            "tag": "",
+            "patterns": [
+                ""
+            ],
+            "responses": [
+                ""
+            ]
+        },
+        {
+            "tag": "EEE department",
+            "patterns": [
+                "eee",
+                "eee department",
+                "electrical and electronics engineering",
+                "department of eee",
+                "department of electrical and electronics engineering",
+                "activities of eee",
+                "activities under eee department",
+                "eee faculty",
+                "eee department faculty",
+                "faculty of eee department",
+                "faculty under eee department",
+                "eee department events",
+                "eee department alumni",
+                "alumni of eee department",
+                "Research Projects under eee department",
+                "eee faculty achievements",
+                "eee department faculty achievements",
+                "eee students achievements",
+                "eee department students achievements"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/eee.php"
+            ]
+        },
+        {
+            "tag": "mechanical department",
+            "patterns": [
+                "mechanical",
+                "mechanical department",
+                "mechanical engineering",
+                "department of mechanical engineering",
+                "department of mech",
+                "activities of mech",
+                "activities under mech department",
+                "mechanical department faculty",
+                "mech department faculty",
+                "faculty of mechanical department",
+                "faculty under mechanical department",
+                "mechanical department events",
+                "mechanical department alumni",
+                "alumni of mechanical department",
+                "Research Projects under mechanical department",
+                "placements of mechanical engineering",
+                "mechanical engineering placements"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/mech.php"
+            ]
+        },
+        {
+            "tag": "ece department",
+            "patterns": [
+                "ece",
+                "electronics and communication",
+                "ece department",
+                "electronics and communication engineering",
+                "department of ece",
+                "department of electronics and communication engineering",
+                "activities of ece",
+                "activities under ece department",
+                "ece faculty",
+                "ece department faculty",
+                "faculty of ece department",
+                "faculty under ece department",
+                "ece department events",
+                "ece department alumni",
+                "alumni of ece department",
+                "Research Projects under ece department",
+                "placements of electronics and communication engineering",
+                "ece placements"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/ece.php"
+            ]
+        },
+        {
+            "tag": "eie department",
+            "patterns": [
+                "eie",
+                "eie department",
+                "electronics and instrumentation engineering",
+                "department of eie",
+                "department of electronics and instrumentation engineering",
+                "activities of eie",
+                "activities under eie department",
+                "eie faculty",
+                "eie department faculty",
+                "faculty of eie department",
+                "faculty under eie department",
+                "eie department events",
+                "eie department alumni",
+                "alumni of eie department",
+                "Research Projects under eie department",
+                "syllabus book of electronics and instrumentation engineering",
+                "eie syllabus book"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/eie.php"
+            ]
+        },
+        {
+            "tag": "it department",
+            "patterns": [
+                "it",
+                "information technology",
+                "it department",
+                "department of information technology",
+                "it faculty",
+                "it department faculty",
+                "faculty of it department",
+                "faculty under it department",
+                "it department events",
+                "events under it department",
+                "it department alumni",
+                "alumni of it department",
+                "Research Projects under it department",
+                "it research projects",
+                "achievements of it department",
+                "it department achievements"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/it.php"
+            ]
+        },
+        {
+            "tag": "Automobile engineering",
+            "patterns": [
+                "ae",
+                "automobile",
+                "ae department",
+                "automobile department",
+                "department of automobile engineering",
+                "automobile faculty",
+                "automobile department faculty",
+                "faculty of automobile department",
+                "faculty under automobile department",
+                "automobile department events",
+                "events under automobile department",
+                "Research Projects under automobile department",
+                "automobile research projects",
+                "achievements of automobile department",
+                "automobile department achievements",
+                "awards for automobile department",
+                "automobile department awards"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/ae.php"
+            ]
+        },
+        {
+            "tag": "humanities and sciences department",
+            "patterns": [
+                "h&s",
+                "humanities and sciences",
+                "h&s department",
+                "humanities and sciences department",
+                "department of h&s engineering",
+                "department of humanities and sciences",
+                "h&s faculty",
+                "humanities and sciences department faculty",
+                "faculty of h&s department",
+                "faculty of humanities and sciences department",
+                "faculty under h&s department",
+                "faculty under humanities and sciences department",
+                "h&s department mission",
+                "h&s department vision",
+                "h&s department mission and vision",
+                "humanities and sciences department mission",
+                "humanities and sciences department vision",
+                "humanities and sciences department mission and vision"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/has.php"
+            ]
+        },
+        {
+            "tag": "CSE Placements",
+            "patterns": [
+                "CSE placements",
+                "placements in cse",
+                "placements cse",
+                "placement details of cse students"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/cseplacements.php"
+            ]
+        },
+        {
+            "tag": "CSE Alumni",
+            "patterns": [
+                "cse alumni",
+                "alumni of cse"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/csedept/Alumni%20Mentors.pdf"
+            ]
+        },
+        {
+            "tag": "fee payment",
+            "patterns": [
+                "fees",
+                "fee payment",
+                "how to pay fees",
+                "how to pay fee",
+                "how to pay tution fee",
+                "tuition fee",
+                "tuition fee payment",
+                "link for paying tuition fee",
+                "where to pay tuition fee"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/payment.php"
+            ]
+        },
+        {
+            "tag": "Exam Fees",
+            "patterns": [
+                "exam fee payment",
+                "how to pay exam fees",
+                "how to pay exam fee",
+                "Exam Fees Payment",
+                "Sem Exam Fees",
+                "Exam Fee payment",
+                "where to pay exam fee",
+                "exam fee",
+                "exam fees"
+            ],
+            "responses": [
+                "https://vnrvjietexams.net/eduprimeexam/examfee"
+            ]
+        },
+        {
+            "tag": "Condonation Fees",
+            "patterns": [
+                "Condonation Fee payment",
+                "Condo payment",
+                "condo fee"
+            ],
+            "responses": [
+                "https://vnrvjietexams.net/FeePaymentModule/CondonationFeepayment.aspx"
+            ]
+        },
+        {
+            "tag": "Btech Results",
+            "patterns": [
+                "supplimentary results",
+                "supply results",
+                "suppli results",
+                "results",
+                "exam results",
+                "sem results",
+                "final results",
+                "Btech Results",
+                "Exam Results",
+                "btech exam results"
+            ],
+            "responses": [
+                "https://vnrvjietexams.net/FeePaymentModule/BetechResults.aspx"
+            ]
+        },
+        {
+            "tag": "Hall Ticket",
+            "patterns": [
+                "Btech Hall ticket",
+                "Hall ticket",
+                "Hall ticket download"
+            ],
+            "responses": [
+                "https://vnrvjietexams.net/FeePaymentModule/GenarateHallticket.aspx"
+            ]
+        },
+        {
+            "tag": "Examination",
+            "patterns": [
+                "Examination Website",
+                "Examination home page",
+                "Exam Department",
+                "Examination Department",
+                "examination branch"
+            ],
+            "responses": [
+                "https://vnrvjietexams.net/FeePaymentModule/Home.aspx"
+            ]
+        },
+        {
+            "tag": "Percentage Calculator",
+            "patterns": [
+                "Cgpa to percentage",
+                "Percentage calculator",
+                "How to calculate percentage based on cgpa"
+            ],
+            "responses": [
+                "https://vnrvjietexams.net/FeePaymentModule/PDFS/Conversion%20of%20CGPA.pdf"
+            ]
+        },
+        {
+            "tag": "OnGoing Research Projects",
+            "patterns": [
+                "Ongoing research",
+                "Ongoing research projects",
+                "Ongoing projects"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/RCCOGP.pdf"
+            ]
+        },
+        {
+            "tag": "Research",
+            "patterns": [
+                "Research",
+                "Research Projects"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/research.php"
+            ]
+        },
+        {
+            "tag": "patent",
+            "patterns": [
+                "patents of vnr",
+                "vnr patents"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/research.php"
+            ]
+        },
+        {
+            "tag": "Completed Research Projects",
+            "patterns": [
+                "Comleted research",
+                "Completed research projects",
+                "completed projects"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/crp.php"
+            ]
+        },
+        {
+            "tag": "Adminstration",
+            "patterns": [
+                "Adminstration",
+                "Adinstration department",
+                "adminstrative department",
+                "adminstrative office"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/ao.php"
+            ]
+        },
+        {
+            "tag": "Transport",
+            "patterns": [
+                "Transport",
+                "Transport details",
+                "transport facility",
+                "transportation",
+                "transportation facility",
+                "transport routes",
+                "transport route"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/transport.php"
+            ]
+        },
+        {
+            "tag": "Alumni",
+            "patterns": [
+                "VNR Alumni",
+                "Alumni of vnr",
+                "alumni details",
+                "alimni of college"
+            ],
+            "responses": [
+                "https://www.vnralums.com/"
+            ]
+        },
+        {
+            "tag": "Ed cell",
+            "patterns": [
+                "VNR ed cell",
+                "ed cell of vnr",
+                "ed cell details",
+                "ed cell of college"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/ed.php"
+            ]
+        },
+        {
+            "tag": "Library",
+            "patterns": [
+                "Library details",
+                "VNR Library",
+                "Library",
+                "library of vnr",
+                "college library",
+                "library for college"
+            ],
+            "responses": [
+                "http://vnrvjiet.ac.in/library.php"
+            ]
+        },
+        {
+            "tag": "iiic",
+            "patterns": [
+                "iiic"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/iiic.php"
+            ]
+        },
+        {
+            "tag": "vnrsf",
+            "patterns": [
+                "vnrsf",
+                "vnr sf",
+                "vnr student force",
+                "student force vnr"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/nss1.php"
+            ]
+        },
+        {
+            "tag": "nss",
+            "patterns": [
+                "nss",
+                "vnr nss",
+                "nss  vnr"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/nss2.php"
+            ]
+        },
+        {
+            "tag": "paac cell",
+            "patterns": [
+                "paac cell",
+                "vnr paac cell",
+                "paac cell vnr",
+                "paac functions",
+                "functions of paac"
+            ],
+            "responses": [
+                "http://www.vnrvjiet.ac.in/paac.php"
+            ]
+        }
+    ]
+}

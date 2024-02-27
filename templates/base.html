@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<head>
+    <meta charset="UTF-8">
+    <title>Chatbot</title>
+</head>
+
+<body
+    style="background-image: url(../static/images/background.png) ; background-size: cover; overflow-y: hidden; overflow-x: hidden;">
+    <div class="container">
+        <div class="chatbox">
+            <div class="chatbox__support">
+                <div class="chatbox__header">
+                    <div class="chatbox__image--header">
+                        <img style="margin-left: auto;"
+                            src="https://img.icons8.com/color/48/000000/circled-user-female-skin-type-5--v1.png"
+                            alt="click to open chat">
+                    </div>
+                    <div class="chatbox__content--header">
+                        <h4 class="chatbox__heading--header">Quick Access</h4>
+                        <p class="chatbox__description--header">VNR VJIET Chat Bot</p>
+                    </div>
+                </div>
+                <div class="chatbox__messages">
+                    <div class="messages__item message__item--visitor messages__item--visitor">Hello! Welcome to VNR
+                        VJIET. How may I help you?</div>
+                </div>
+                <div class="chatbox__footer">
+                    <input id="convert_text" type="text" placeholder="Write a message...">
+
+                    <button id="click_to_record" class="microphone-ico" style="background: none; border: none;"
+                    title="Voice Search">
+                        <i class="fa fa-microphone" aria-hidden="true" style="font-size:24px"></i>
+                    </button>
+<!--                    <button id="send" class="chatbox__send&#45;&#45;footer send__button" style="display: none;">-->
+<!--                        <i class="fa fa-send-o" style="font-size:24px"></i>-->
+<!--                    </button>-->
+                    <div id="listening">
+
+                        <div class="pulse-ring">
+                            <button id="stop_recording" class="microphone-ico2" style="background: none; border: none;"
+                            title="Stop Recording">
+                                <i class="fa fa-microphone fa-beat-fade" aria-hidden="true" style="font-size:24px;"></i>
+                            </button>
+                        </div>
+
+
+                        <select class="chatbox__send--footer send__button" id="language-select">
+                          <option value="en-US" selected>English (US)</option>
+                          <option value="en-GB">English (UK)</option>
+                          <option value="fr-FR">French</option>
+                          <option value="es-ES">Spanish</option>
+                          <option value="te-IN">తెలుగు</option>
+                          <option value="hi-IN">हिंदी</option>
+                          <!-- Add more language options as desired -->
+                        </select>
+
+                    </div>
+                </div>
+            </div>
+            <div style="text-align: right;" class="chatbox__button">
+                <button><img src="{{ url_for('static', filename='images/chatbox-icon.svg') }}" /></button>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script type="text/javascript" style="float: right;" src="{{ url_for('static', filename='app.js') }}"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</html>
